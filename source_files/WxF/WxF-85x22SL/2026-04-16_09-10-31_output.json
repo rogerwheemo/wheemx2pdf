@@ -1,0 +1,721 @@
+{
+    "check_flag": false,
+    "object": "Standard Units",
+    "length": "meters",
+    "angle": "degrees",
+    "Machine": {
+        "Configuration": "BSARB",
+        "RotorStructure": false,
+        "Pizza": {
+            "PizzaVerticalCut": false,
+            "PizzaHorizontalCut": false,
+            "PizzaSliceAngle": 51.43,
+            "PizzaAdjustSliceAngle": false
+        },
+        "GeometricalParameters": {
+            "MachineInnerRadius": 0.021016578888872615,
+            "MachineOuterRadius": 0.0415,
+            "AirGapThickness": 0.0005,
+            "FullMachineOuterRadius": 0.0415,
+            "FullMachineInnerRadius": 0.021017,
+            "AirOuterRadius": 0.047031,
+            "AirInnerRadius": 0.015486,
+            "MachineThickness": 0.021659,
+            "ActiveSurface": 0.0029368132803146456
+        },
+        "MachineCenter": [
+            0,
+            0,
+            0
+        ],
+        "ConfigurationSeparatedPizza": [
+            [
+                "start",
+                "B",
+                "S",
+                "A"
+            ],
+            [
+                "A",
+                "R",
+                "B",
+                "end"
+            ]
+        ],
+        "ConfigurationSeparated": [
+            [
+                "start",
+                "B",
+                "S",
+                "A"
+            ],
+            [
+                "A",
+                "R",
+                "B",
+                "end"
+            ]
+        ]
+    },
+    "Stator": {
+        "Typology": {
+            "BackIronTypology": 1,
+            "TeethTypology": 3,
+            "PoleShoeTypology": 1
+        },
+        "GeometricalParameters": {
+            "BackIron": {
+                "BackIronStatorThickness": 0.0027670960469345068,
+                "BackIronStatorOffsetInner": 0.0,
+                "BackIronStatorOffsetOuter": 0.0,
+                "BackIronStatorInnerRadius": 0.023782,
+                "BackIronStatorOuterRadius": 0.038735,
+                "BackIronStatorTypology": 1
+            },
+            "Teeth": {
+                "TeethNumber": 18,
+                "TeethPitchTeethArcRatio": 0.3079698773432075,
+                "TeethThickness": 0.011163193025664646,
+                "TeethArcFillRatio": 1,
+                "TeethIsInverted": false,
+                "TeethSkew": 0.0,
+                "TeethSkewDirection": "ccw",
+                "TeethStraightType": false,
+                "TeethInnerRadiusFilletSize": 0.0,
+                "TeethOuterRadiusFilletSize": 0.0,
+                "TeethInnerRadius": 0.023782,
+                "TeethOuterRadius": 0.038735,
+                "TeethCornerType": 4,
+                "TeethRatioIn": 1,
+                "TeethRatioOut": 1.869537758112014,
+                "TeethAngleShift": 0,
+                "TeethDrawFillets": false,
+                "TeethSegments": false,
+                "TeethSegmentsNumber": 0,
+                "TeethDrawChamfers": false,
+                "TeethInnerLengthChamferSize": 0.0,
+                "TeethOuterLengthChamferSize": 0.0,
+                "TeethVerticalEdgesChamferSize": 0.0
+            },
+            "PoleShoe": {
+                "PoleShoeOffsetInner": 0.0,
+                "PoleShoeOffsetOuter": 0.0,
+                "PoleShoeThickness": 0.003,
+                "PoleShoePitchPoleShoeArcRatio": 0.85,
+                "PoleShoeArcFillRatio": 0,
+                "PoleShoeIsInverted": false,
+                "PoleShoeSkew": 0,
+                "PoleShoeSkewDirection": "cw",
+                "PoleShoeStraightType": false,
+                "PoleShoeInnerRadiusFilletSize": 0.0,
+                "PoleShoeOuterRadiusFilletSize": 0.0,
+                "PoleShoeChamferSurfaceFlipped": false,
+                "PoleShoeInnerLengthChamferSize": 0.0,
+                "PoleShoeOuterLengthChamferSize": 0.0,
+                "PoleShoeVerticalEdgesChamferSize": 0.0
+            },
+            "Coil": {
+                "CoilGapDistance": 0.0001,
+                "CoilAdjacentDistance": 0.0002,
+                "CoilBaseOffset": 0.0001,
+                "CoilWidth": 0.002765463860898183,
+                "WireWidthFinal": 0.0026654638608981833
+            },
+            "StatorMaxThickness": 0.01418,
+            "StatorMinThickness": 0.01418
+        },
+        "PhysicalProperties": {
+            "TeethMaterial": "NO30-Cogent",
+            "BackIronMaterial": "NO30-Cogent",
+            "CoilMaterial": "Copper",
+            "PoleShoeMaterial": "NO30-Cogent",
+            "AirRingMaterial": "Air",
+            "CoilGapMaterial": "Air"
+        }
+    },
+    "Rotor": {
+        "Typology": {
+            "MagnetsTypology": 0,
+            "BackIronTypology": 1,
+            "StructureTypology": 1
+        },
+        "GeometricalParameters": {
+            "RotorOffsetOuter": 0.0005,
+            "RotorOffsetInner": 0.0005,
+            "BackIron": {
+                "BackIronRotorThickness": 0.0024586460145207094,
+                "BackIronRotorOffsetInner": 0.0,
+                "BackIronRotorOffsetOuter": 0.0,
+                "BackIronRotorInnerRadius": 0.023282,
+                "BackIronRotorOuterRadius": 0.039235,
+                "BackIronRotorTypology": 1
+            },
+            "Magnets": {
+                "MagnetsNumber": 20,
+                "MagnetsPitchMagnetsArcRatio": 0.97,
+                "MagnetsThickness": 0.004770528411212881,
+                "MagnetsArcFillRatio": 0.9852903596029053,
+                "MagnetsIsInverted": false,
+                "MagnetsSkew": 0.0,
+                "MagnetsSkewDirection": "ccw",
+                "MagnetsStraightType": false,
+                "MagnetsStepSkewParts": 0,
+                "MagnetsRatioDualSkew": 0,
+                "MagnetsAngleDualSkew": 0,
+                "MagnetsInnerRadiusFilletSize": 0.0,
+                "MagnetsOuterRadiusFilletSize": 0.0,
+                "MagnetsSegments": false,
+                "MagnetsSegmentsNumber": 10,
+                "MagnetsInnerRadius": 0.023282,
+                "MagnetsOuterRadius": 0.039235,
+                "MagnetsCornerType": 4,
+                "MagnetsRatioIn": 0.9852903596029053,
+                "MagnetsRatioOut": 1,
+                "MagnetsAngleShift": 0,
+                "MagnetsDrawFillets": false,
+                "MagnetsDrawChamfers": false,
+                "MagnetsInnerLengthChamferSize": 0.0,
+                "MagnetsOuterLengthChamferSize": 0.0,
+                "MagnetsVerticalEdgesChamferSize": 0.0
+            },
+            "Structure": {
+                "StructureStepWidthRatio": 1.0,
+                "StructureStepHeight": 0.0025,
+                "StructureInnerWidthRatio": 1.0,
+                "StructureOuterWidthRatio": 1.0
+            },
+            "X": {
+                "XOffsetInner": 0.0,
+                "XOffsetOuter": 0.0,
+                "XThickness": 0.001,
+                "XToMagnetRatio": 2.5,
+                "XInnerRadiusFilletSize": 0.0069,
+                "XOuterRadiusFilletSize": 0.006,
+                "XArcFillRatio": 1.0,
+                "XSegments": false,
+                "XSegmentsNumber": 1
+            },
+            "RotorMaxThickness": 0.007479,
+            "RotorMinThickness": 0.007479
+        },
+        "PhysicalProperties": {
+            "StructureMaterial": "Air",
+            "MagnetsMaterial": "BMN-52SH (GBD)",
+            "XMaterial": "NO30-Cogent",
+            "BackIronMaterial": "11SMn30",
+            "AirRingMaterial": "Air"
+        }
+    },
+    "Simulation": {
+        "StudyType": {
+            "magnetostatic_simulation": false,
+            "magnetoquasistaticBEMF_simulation": false
+        },
+        "NumberOfPhases": 3,
+        "CurrentDensityRMS": 15000000.0,
+        "DCSupplyVoltage": 48.0,
+        "FillFactor": 0.6,
+        "PhaseAdvanceAngle_ElDeg": 0.0,
+        "MagnetTemperature_C": 20.0,
+        "DynamicSourceMagnetization": false,
+        "RPM": 2500.0,
+        "Output": {
+            "SlotFillFactor": null,
+            "RmsSupplyCurrent_A": 262.9979532896396,
+            "PeakSupplyCurrent_A": 371.93527241857413,
+            "PeakCurrentDensity_Aperm2": 12727922.061357858,
+            "AverageDAxisPhase_A": -0.0,
+            "AverageQAxisPhase_A": 371.93527241857635,
+            "AverageDAxisPhase_V": -0.6027338776784258,
+            "AverageQAxisPhase_V": 1.8380479044545956,
+            "PeakPhaseBackEmf_V": 1.7046841457834132,
+            "RmsPhaseBackEmf_V": 1.2053937192646487,
+            "PeakPhaseTerminalVoltage_V": 1.934349561576501,
+            "PeakLineToLineTerminalVoltage_SVM_V": 3.350391720249082,
+            "PeakLineToLineBackEmf_V": 2.9525995513540226,
+            "RmsLineToLineBackEmf_V": 2.0878031648907873,
+            "PeakPhaseInducedVoltage_V": 1.8341821807654832,
+            "RmsPhaseInducedVoltage_V": 1.2969626579508031,
+            "PeakLineToLineInducedVoltage_V": 3.1768967274232995,
+            "RmsLineToLineInducedVoltage_V": 2.246405219090366,
+            "TotalTorque_Nm": 3.9249479046811984,
+            "ReluctanceTorque_Nm": -0.0,
+            "MagnetTorque_Nm": 3.6293860324876794,
+            "CoggingTorque_Nm": 0.036716258882368125,
+            "TorqueRipple_Percent": 3.0079453613208753,
+            "TorqueRippleAbsolute_Nm": 0.118060288433119,
+            "TorquePerAxialHeight_NmPerm": 181.21556418492074,
+            "TorquePerMachineCost_NmPerDollar": null,
+            "TorqueDensity_NmPerKg": 7.9700925949600325,
+            "TorqueDensityCopperMass_NmPerKg": 28.318885093318602,
+            "TorqueDensityMagnetMass_NmPerKg": 36.05814073892375,
+            "ApperentElectricalPower_W": 1079.1792467065643,
+            "ActiveElectricalPower_W": 1025.4522720925702,
+            "OutputMechanicalPower_KW": 1.0274732734767535,
+            "Efficiency_Percent": 92.4809314964661,
+            "PowerFactor": 0.9502149668111596,
+            "StatorWindingResistanceLoss_W": 58.985331751587296,
+            "StatorWindingSimulationLoss_W": 58.99025075873062,
+            "TotalIronCoreLoss_W": 7.4796282033298125,
+            "EddyCurrentIronCoreLoss_W": 0.0,
+            "SteinmetzHysteresisLossTeeth_W": 0.44501597444834795,
+            "SteinmetzHysteresisLossBackirons_W": 0.20063568590514116,
+            "SteinmetzHysteresisLossPoleshoes_W": 0.0,
+            "SteinmetzLossTotal_W": 0.6456516603534891,
+            "SteinmetzEddyHysteresisLossTeeth_W": 0.5080020070388902,
+            "SteinmetzEddyLossTeeth_W": 2.0380904799066186e-12,
+            "SteinmetzEddyHysteresisLossBackirons_W": 0.2290329698372517,
+            "SteinmetzEddyLossBackirons_W": 9.118471481463486e-13,
+            "SteinmetzEddyHysteresisLossPoleshoes_W": 0.0,
+            "SteinmetzEddyLossPoleshoes_W": 0.0,
+            "SteinmetzEddyLossTotal_W": 0.7370349768790917,
+            "BertottiHysteresisLossTeeth_W": 0.007720652748287984,
+            "BertottiEddyLossTeeth_W": 12.934068712502622,
+            "BertottiExcessLossTeeth_W": 1.2127749942110173,
+            "BertottiHysteresisLossBackirons_W": 0.004039074429976491,
+            "BertottiEddyLossBackirons_W": 5.786737039252904,
+            "BertottiExcessLossBackirons_W": 0.5594099486677345,
+            "BertottiHysteresisLossPoleshoes_W": 0.0,
+            "BertottiEddyLossPoleshoes_W": 0.0,
+            "BertottiExcessLossPoleshoes_W": 0.0,
+            "BertottiLossTotal_W": 20.504750421812542,
+            "MaxwellHysteresisLossTeeth_W": 0.0295310181781868,
+            "MaxwellEddyLossTeeth_W": 12.304590907454758,
+            "MaxwellExcessLossTeeth_W": 1.3691924086318523,
+            "MaxwellHysteresisLossBackirons_W": 0.013212256753621358,
+            "MaxwellEddyLossBackirons_W": 5.505106980620459,
+            "MaxwellExcessLossBackirons_W": 0.6315597358826516,
+            "MaxwellHysteresisLossPoleshoes_W": 0.0,
+            "MaxwellEddyLossPoleshoes_W": 0.0,
+            "MaxwellExcessLossPoleshoes_W": 0.0,
+            "MaxwellLossTotal_W": 19.853193307521526,
+            "MagnetEddyCurrentLoss_W": 6.884428571428572,
+            "OtherEddyCurrentLoss_W": 10.188285714285714,
+            "WindingEddyCurrentLoss_W": 0,
+            "RotorStructureEddyCurrentLoss_W": 0.0,
+            "TotalLoss_W": 83.53767424063139,
+            "BRemanent_T": 1.4486227210761375,
+            "HcJ_kAPerM": 1594.7740720039003,
+            "Hd5_kAPerM": 1552.9736594088474,
+            "Hd10_kAPerM": 1567.1478588375633,
+            "MaxDemagField_kAPerM": -1061.1241315637546,
+            "MinDemagField_kAPerM": -1247.2682330995258,
+            "MaxDemagFactor": 0.7108236421692455,
+            "MinDemagFactor": 0.7108236421692455,
+            "DemagFactorPercentile99_9": 0.7108236421692455,
+            "DemagFactorPercentile99": 0.7108236421692455,
+            "DemagFactorPercentile95": 0.7108236421692455,
+            "DemagFactorPercentile90": 0.7108236421692455,
+            "DemagFactorPercentile85": 0.7108236421692455,
+            "DemagFactorPercentile80": 0.7108236421692455,
+            "PercentileOfDemagFactorAt0_9_Percent": 100.0,
+            "PercentileOfDemagFieldAtHd5_Percent": 100.0,
+            "PercentileOfDemagFieldAtHd10_Percent": 100.0,
+            "DemagFactorMean": 0.711,
+            "DemagFactorStandardDeviation": 0.0,
+            "DemagFactorCorrelationCoefficientR2": -Infinity,
+            "DemagPerformanceDegrationOnTorque_Percent": 1.08,
+            "DiscretizationError_Percent": null,
+            "VelocityConstantPhasePeakKv_RpmPerV": 1467.9012628360647,
+            "VelocityConstantOptimalNoLoadPhasePeakKv_RpmPerV": 1466.5473402705272,
+            "BackEmfConstantPhasePeakKe_VPerRpm": 0.0006812447303628214,
+            "BackEmfConstantPhasePeakKeElec_VsPerRad": 0.0006505407977552906,
+            "BackEmfConstantPhasePeakKeMech_VsPerRad": 0.006505407977552905,
+            "BackEmfConstantLineToLineRmsKe_VPerRpm": 0.0008343509896744114,
+            "BackEmfConstantLineToLineRmsKeElec_VsPerRad": 0.0007967465056817849,
+            "BackEmfConstantLineToLineRmsKeMech_VsPerRad": 0.007967465056817849,
+            "BackEmfConstantOptimalNoLoadPhasePeakKe_VPerRpm": 0.0006818736583133652,
+            "BackEmfConstantOptimalNoLoadPhasePeakKeElec_VsPerRad": 0.0006511413797083568,
+            "BackEmfConstantOptimalNoLoadPhasePeakKeMech_VsPerRad": 0.006511413797083568,
+            "BackEmfConstantOptimalNoLoadLineToLineRmsKe_VPerRpm": 0.0008351212659563148,
+            "BackEmfConstantOptimalNoLoadLineToLineRmsKeElec_VsPerRad": 0.0007974820653486532,
+            "BackEmfConstantOptimalNoLoadLineToLineRmsKeMech_VsPerRad": 0.007974820653486533,
+            "TorqueConstantKtFromFluxLinkage_NmPerA": 0.009758111966329358,
+            "TorqueConstantKtFromFluxLinkage_NmPerArms": 0.01380005428593817,
+            "TorqueConstantOptimalNoLoadKt_NmPerA": 0.009767120695625353,
+            "TorqueConstantOptimalNoLoadKt_NmPerArms": 0.013812794553088314,
+            "TorqueConstantLoadedKt_NmPerA": 0.01055277139798691,
+            "TorqueConstantLoadedKt_NmPerArms": 0.014923872431655974,
+            "MotorConstantKm_NmPerSqrtW": 0.4294303221574219,
+            "SpecificMotorConstant_NmPerSqrtWPerKg": 0.8720114288895684,
+            "Saturation_Percent": -8.043831205172339,
+            "AverageAirgapFluxDensity_T": 0.0378738346693422,
+            "MaximumAirgapFluxDensity_T": 4.327239784735579,
+            "PeakStatorToothAverageFluxDensity_T": null,
+            "PeakStatorBackIronAverageFluxDensity_T": null,
+            "PeakRotorBackIronAverageFluxDensity_T": null,
+            "DAxisInductanceLd_uH": 0.6452906250698242,
+            "QAxisInductanceLq_uH": 0.6311273180847219,
+            "DQAxisInductanceAvgLdq_uH": 0.00782886207698516,
+            "DQAxisInductanceLdqFromD_uH": -0.014112734163655787,
+            "DQAxisInductanceLdqFromQ_uH": 0.029770458317626106,
+            "PermanentMagnetFluxLinkageLoad_mWb": 0.6505407977552905,
+            "PermanentMagnetFluxLinkageLoadQ_mWb": -0.004449091539693885,
+            "LoadedFluxLinkageD_mWb": 0.6616978912053721,
+            "LoadedFluxLinkageQ_mWb": 0.23022738240352142,
+            "PhaseSelfInductanceLself_uH": null,
+            "PhaseMutualInductanceLmutual_uH": null,
+            "VolumeMagnet_m3": 7.208644691231625e-07,
+            "VolumeX_m3": 0.0,
+            "VolumeRotorBackiron_m3": 7.702643773248618e-06,
+            "VolumeTooth_m3": 8.62962424059426e-07,
+            "VolumeCopperInclFillFactor_m3": 8.593641468524735e-07,
+            "VolumePoleShoe_m3": 0.0,
+            "VolumeStatorBackiron_m3": 8.126288326177393e-06,
+            "MassMagnet_Kg": 0.005442526741879854,
+            "MassX_Kg": 0.0,
+            "MassRotorBackiron_Kg": 0.06046575362000152,
+            "MassTooth_Kg": 0.006731106907663539,
+            "MassCopperInclFillFactor_Kg": 0.007699902755798242,
+            "MassPoleShoe_Kg": 0.0,
+            "MassStatorBackiron_Kg": 0.0633850489441831,
+            "MassMagnetPerMachine_Kg": 0.10885053483759709,
+            "MassXPerMachine_Kg": 0.0,
+            "MassRotorBackironPerMachine_Kg": 0.06046575362000152,
+            "MassToothPerMachine_Kg": 0.1211599243379437,
+            "MassCopperInclFillFactorPerMachine_Kg": 0.13859824960436837,
+            "MassPoleShoePerMachine_Kg": 0.0,
+            "MassStatorBackironPerMachine_Kg": 0.0633850489441831,
+            "MassMinRotorPerMachine_Kg": null,
+            "MassMinStatorPerMachine_Kg": null,
+            "MassMaxRotorPerMachine_Kg": null,
+            "MassMaxStatorPerMachine_Kg": null,
+            "MassMachine_Kg": 0.4924595113440938,
+            "MomentOfInertiaRotor_KgM2": 0.00017633880115161546,
+            "ResistanceCoil_Ohm": 4.7376915662207226e-05,
+            "ResistanceSinglePhase_Ohm": null,
+            "ResistanceMachinePhase_Ohm": 0.00028426149397324334,
+            "AirgapTangentialForceAverage_N": -123.89322482829616,
+            "AirgapAxialForceAverage_N": 491.044441526598,
+            "AirgapRadialForceAverage_N": -23.548395800669542,
+            "AirgapShearStress_Pa": 42186.27914098183,
+            "MagnetAxialForcePositiveMaximum_N": 0,
+            "MagnetAxialForcePositiveMinimum_N": 0,
+            "MagnetAxialForceNegativeMaximum_N": -115.55461711286247,
+            "MagnetAxialForceNegativeMinimum_N": -66.08281948682391,
+            "MagnetRadialForcePositiveMaximum_N": 47.89447790485882,
+            "MagnetRadialForceNegativeMaximum_N": -46.8455905689184,
+            "MagnetTangentialForceMaximum_N": 49.736601578487004,
+            "MagnetForceElecFrequency_Hz": 833.3333333333333,
+            "MagnetForceMechFrequency_Hz": 83.33333333333333,
+            "OutputMinCoreWidth_mm": 2.557,
+            "DAxisAlignmentAngle_Deg": 57.09676632588972,
+            "PermanentMagnetFluxLinkageNoLoadMin_mWb": 0.6168985085889227,
+            "PermanentMagnetFluxLinkageNoLoadMax_mWb": 0.6853842508277911,
+            "PermanentMagnetFluxLinkageNoLoadAvg_mWb": 0.6511413797083568,
+            "TotalMachineCost_USD": null,
+            "RotationalFrequencyElec_Hz": 416.66666666666663,
+            "RotationalFrequencyMech_Hz": 41.666666666666664,
+            "ShortCircuitPeakTorque_Nm": 9.399210558868754,
+            "ShortCircuitPeakId_A": 1585.7865541961776,
+            "ShortCircuitPeakIq_A": 980.0963452697264,
+            "ShortCircuitAvgId_A": -979.4264573426797,
+            "ShortCircuitAvgIq_A": -169.55157587601292,
+            "ShortCircuitAvgIActive_A": 993.9939574623837,
+            "ShortCircuitRmsIa_Arms": 702.6534622336756,
+            "ShortCircuitRmsIb_Arms": 702.5114802304435,
+            "ShortCircuitRmsIc_Arms": 703.4143274434149,
+            "ShortCircuitDemagId_A": -1585.7865541961776,
+            "ShortCircuitDemagIq_A": -315.0795220479278,
+            "ShortCircuitDemagIActive_A": 1616.7851127108195,
+            "ShortCircuitDemagIActiveDensityRMS_A_per_m2": 65204293.56689065,
+            "ShortCircuitDemagThetaE_deg": 101.23772948522573,
+            "ASCAverageTorque_Nm": null,
+            "ASCAverageLoadedFluxLinkageD_Wb": null,
+            "ASCAverageLoadedFluxLinkageQ_Wb": null,
+            "ASCTorqueReduction_Percent": null,
+            "ASCLoadedFluxLinkageDReduction_Percent": null,
+            "ASCLoadedFluxLinkageQReduction_Percent": null,
+            "ASCAirgapAxialForceAverage_N": null,
+            "ASCMagnetAxialForcePositiveMaximum_N": null,
+            "ASCMagnetAxialForcePositiveMinimum_N": null,
+            "ASCMagnetAxialForceNegativeMaximum_N": null,
+            "ASCMagnetAxialForceNegativeMinimum_N": null,
+            "ASCMagnetRadialForcePositiveMaximum_N": null,
+            "ASCMagnetRadialForceNegativeMaximum_N": null,
+            "ASCMagnetTangentialForceMaximum_N": null
+        },
+        "ElectricalFrequency_Hz": 416.66666666666663,
+        "CurrentDensityPeak": 21213203.43559643,
+        "Property": {
+            "PizzaHorizontalCut": false,
+            "num_of_slots": 18,
+            "num_of_poles": 20,
+            "num_of_phases": 3,
+            "phase_difference": [
+                0,
+                0,
+                240,
+                240,
+                240,
+                120,
+                120,
+                120,
+                0,
+                0,
+                0,
+                240,
+                240,
+                240,
+                120,
+                120,
+                120,
+                0
+            ],
+            "coil_curr_dir": [
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                -1
+            ],
+            "all_coil_ids": [
+                [
+                    1,
+                    2,
+                    9,
+                    10,
+                    11,
+                    18
+                ],
+                [
+                    7,
+                    8,
+                    15,
+                    16,
+                    17,
+                    6
+                ],
+                [
+                    13,
+                    14,
+                    3,
+                    4,
+                    5,
+                    12
+                ]
+            ],
+            "coil_id_direction_map": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    2,
+                    -1
+                ],
+                [
+                    3,
+                    -1
+                ],
+                [
+                    4,
+                    1
+                ],
+                [
+                    5,
+                    -1
+                ],
+                [
+                    6,
+                    -1
+                ],
+                [
+                    7,
+                    1
+                ],
+                [
+                    8,
+                    -1
+                ],
+                [
+                    9,
+                    -1
+                ],
+                [
+                    10,
+                    1
+                ],
+                [
+                    11,
+                    -1
+                ],
+                [
+                    12,
+                    -1
+                ],
+                [
+                    13,
+                    1
+                ],
+                [
+                    14,
+                    -1
+                ],
+                [
+                    15,
+                    -1
+                ],
+                [
+                    16,
+                    1
+                ],
+                [
+                    17,
+                    -1
+                ],
+                [
+                    18,
+                    -1
+                ]
+            ],
+            "study_type": {
+                "magnetostatic_simulation": false,
+                "magnetoquasistaticBEMF_simulation": false
+            },
+            "config_sep_pizza": [
+                [
+                    "start",
+                    "B",
+                    "S",
+                    "A"
+                ],
+                [
+                    "A",
+                    "R",
+                    "B",
+                    "end"
+                ]
+            ],
+            "num_of_stators_pizza": 1,
+            "num_of_rotors_pizza": 1,
+            "stator_first": [
+                1
+            ],
+            "rotor_first": [
+                0
+            ],
+            "num_of_airgaps_per_stator": [
+                1
+            ],
+            "num_of_backirons_per_stator": [
+                1
+            ],
+            "num_of_teeth_per_stator": [
+                1
+            ],
+            "num_of_poleshoes_per_stator": [
+                0
+            ],
+            "sandwitched_stator": [
+                0
+            ],
+            "num_of_airgaps_per_rotor": [
+                1
+            ],
+            "num_of_backirons_per_rotor": [
+                1
+            ],
+            "num_of_magnets_per_rotor": [
+                1
+            ],
+            "num_of_x_per_rotor": [
+                0
+            ],
+            "sandwitched_rotor": [
+                0
+            ],
+            "num_of_stators": 1,
+            "num_of_rotors": 1,
+            "mesh_files": [
+                "gmsh:/wheemxduck/wheemx/optimizer/output/WxF_85_starter_1820_km_0.5_20260414_154642/output/base_100/stator_0.msh",
+                "gmsh:/wheemxduck/wheemx/optimizer/output/WxF_85_starter_1820_km_0.5_20260414_154642/output/base_100/rotor_0.msh"
+            ]
+        }
+    },
+    "MeshProperties": {
+        "MeshDimensions": "3D",
+        "AutoMesh": true,
+        "FixedMesh": true,
+        "FixedMeshSize": 0.00201102922770406,
+        "MeshDofMin": 250000.0,
+        "MeshDofMax": 700000.0,
+        "MeshSizeMin": 1e-06,
+        "MeshSizeMax": 0.5,
+        "MeshSizeFactor": 1.0,
+        "MeshAlgorithm": 6,
+        "MeshAlgorithm3D": 1,
+        "MeshOrder": 1,
+        "MeshRotor": {
+            "MeshRotorAirringElementSize": 0.0014690437630992459,
+            "MeshRotorStructureElementSize": 0.0014690437630992459
+        },
+        "MeshMagnet": {
+            "MeshMagnetBackironElementSize": 0.0014690437630992459,
+            "MeshMagnetElementSize": 0.0014690437630992459
+        },
+        "MeshStator": {
+            "MeshStatorAirringElementSize": 0.0014690437630992459
+        },
+        "MeshTeeth": {
+            "MeshTeethBackironElementSize": 0.0014690437630992459,
+            "MeshTeethElementSize": 0.0014690437630992459
+        },
+        "MeshPoleShoe": {
+            "MeshPoleShoeElementSize": 0.0014690437630992459
+        },
+        "MeshCoil": {
+            "MeshCoilElementSize": 0.0014690437630992459,
+            "MeshCoilgapElementSize": 0.0014690437630992459
+        },
+        "MeshAirgap": {
+            "MeshAirgapElementSize": 0.0009
+        },
+        "MeshX": {
+            "MeshXElementSize": 0.0014690437630992459
+        }
+    },
+    "TypologyForBaseShapeSkewing": {
+        "Magnet": {
+            "0": "Custom_typology (3-corner/4-corner)",
+            "1": "Fan_shaped_typology (4-corner)",
+            "2": "Round_typology (no_corner)",
+            "3": "Parallel_skewed_typology (4-corner)",
+            "4": "Triangular_skewed_typology (4-corner)",
+            "5": "Trapezoidal_typology (4-corner)",
+            "6": "Rectangular_typology (4-corner)",
+            "7": "Triangular_typology (3-corner)",
+            "8": "Elliptical_typology (no_corner)",
+            "9": "Fanshape-skewed_typology (4-corner)",
+            "10": "Step-skewed_typology (multi-corner)",
+            "11": "Dual-skewed_typology (6-corner)"
+        },
+        "Teeth": {
+            "0": "Custom_teeth (3-corner/4-corner)",
+            "1": "Fan_shaped_teeth (4-corner)",
+            "3": "Parallel_skewed_teeth (4-corner)",
+            "4": "Triangular_skewed_teeth (4-corner)",
+            "5": "Trapezoidal_teeth (4-corner)",
+            "6": "Rectangular_teeth (4-corner)",
+            "7": "Triangular_teeth(3-corner)",
+            "9": "Fanshape-skewed_teeth (4-corner)"
+        }
+    },
+    "GeneralSettings": {
+        "NThreads": 16
+    },
+    "check_flag_timestamp": "2026-04-16 09:10:31"
+}

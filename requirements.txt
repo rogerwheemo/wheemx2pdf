@@ -1,0 +1,4 @@
+reportlab>=4.0.0
+cadquery-ocp>=7.7.0
+cadquery>=2.4.0
+svglib>=1.5.0
